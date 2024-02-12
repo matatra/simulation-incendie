@@ -1,0 +1,58 @@
+h1{
+    text-align: center;
+}
+
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#stepContainer{
+    font-size: 0;
+}
+
+.stepClass{
+    display: inline-block;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.grid{
+    display: grid;
+    place-items: center;
+} 
+
+.square {
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    float: left;
+    box-sizing: border-box; 
+}
+
+.forest {
+    background-color: green;
+}
+
+.burning {
+    background-color: red;
+}
+
+.ashes{
+    background-color: grey;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    width: 150px;
+    height: 75px;
+    color: black;
+    background-color: darkgray;
+}
